@@ -1,0 +1,62 @@
+body{
+    background-image: url("../img/bg_pizza.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#navi{
+    background-color: #81150b;
+}
+
+#navi a{
+    color: white;
+}
+
+main{
+    background-color: rgba(255,255,255, 0.6);
+    padding: 10px;
+}
+
+.img{
+    border: white 10px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 5px #5d6a09;
+}
+
+/*
+@font-face{
+    font-family: 'Cabin Sketch';
+    src: url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+.focim{
+    font-family: 'Cabin Sketch', cursive; 
+}
+.alcim{
+    font-family: 'Cabin Sketch', cursive; 
+}
+#myList{
+    list-style-image: url("../img/pizza_icon.png");
+}
+
+#myList li{
+    height: 30px;
+}
+
+.pizzanev{
+    color: #414a04;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.row{
+    text-indent: 15px;
+}
+
+#modern{
+    background-color: #ffeccb;
+    border: #5d6a09 double 15px;
+}
