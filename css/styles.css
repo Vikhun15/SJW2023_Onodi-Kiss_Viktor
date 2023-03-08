@@ -24,6 +24,7 @@ main{
     box-shadow: 2px 2px 2px 5px #5d6a09;
 }
 
+
 /*
 @font-face{
     font-family: 'Cabin Sketch';
@@ -59,4 +60,21 @@ main{
 #modern{
     background-color: #ffeccb;
     border: #5d6a09 double 15px;
+}
+
+.linked{
+    color:white;
+    text-decoration: none;
+}
+
+.linked a{
+    font-variant: small-caps;
+    margin:5px;
+    color:white;
+    text-decoration: none;
+}
+.linked a:hover{
+    color:white;
+    text-decoration: none;
+    background-color: black;
 }
